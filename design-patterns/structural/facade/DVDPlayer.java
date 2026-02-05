@@ -1,0 +1,7 @@
+
+public class DVDPlayer{
+
+    public void on(){
+        System.out.println("DVDPlayer ON");
+    }
+}
