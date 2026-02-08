@@ -4,12 +4,14 @@ import java.sql.SQLException;
 
 class DataBaseConnectionManager{
 
-    private static DataBaseConnectionManager instance = null;
+    private static DataBaseConnectionManager instance;
 
-    public DataBaseConnectionManager(){}
+    private DataBaseConnectionManager(){}
+
+    private Connection connection;
 
     public Connection connectDB() throws SQLException{
-        Connection connection = DriverManager.getConnetion("jdbc:mysql://localhost:3306/Employee",
+        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Employee",
                                                             "employee",
                                                             "java@123");
         System.out.println("connection  created");
