@@ -1,0 +1,39 @@
+Meeting Room Assignment.
+
+The Zoom Meeting Calendar tool used to manage events and reminders. Imagine you are a developer on the
+Zoom Meeting Calendar application team, and you’re tasked with implementing some productivity enhancing
+features.
+
+Your goal is to create a functionality for scheduling meetings with the user provided timings.
+You need to determine and block the minimum number of meeting rooms for these meetings.
+User will provide start Time and an end Time in 24 hours format.
+
+Meeting times can be listed as follows: [[2, 8], [3, 4], [3, 9], [5, 11], [8, 20], [11, 15]]
+
+System input format:
+
+2 8
+
+3 4
+
+3 9
+
+5 11
+
+8 20
+
+11 15
+
+Sample Output:
+
+3
+
+Note: below is for reference
+
+More detailed output:
+
+3
+
+Meeting Room 1: 2-8, 8-20
+Meeting Room 2: 3-4, 5-11
+Meeting Room 3: 3-9, 11-15
