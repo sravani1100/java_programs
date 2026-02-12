@@ -1,0 +1,20 @@
+Pangram.
+
+Problem Statement – Pangram is a string that contains all the characters from a to z.
+Given a string, check if it is Pangram or not. Print "YES" if the string is Pangram, else print "NO"
+
+Sample Input:
+
+I can do this all day
+
+The quick brown fox jumps over the lazy dog
+
+I am Groot
+
+Sample Output:
+
+NO
+
+YES
+
+NO
